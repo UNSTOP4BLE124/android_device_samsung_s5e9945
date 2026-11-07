@@ -25,6 +25,7 @@
 /vendor/lib64/libion_exynos\.so                                         u:object_r:same_process_hal_file:s0
 /vendor/lib64/libOpenCL\.so                                             u:object_r:same_process_hal_file:s0
 /vendor/lib64/libsbwchelper\.so                                         u:object_r:same_process_hal_file:s0
+/vendor/lib64/vendor.samsung_slsi.hardware.SbwcDecompService-V1-ndk\.so  u:object_r:same_process_hal_file:s0
 
 # Sensors
 /sys/devices/platform/shub/iio:device[0-9]*/name                        u:object_r:sysfs_sensors:s0
