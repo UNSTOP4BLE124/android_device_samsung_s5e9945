@@ -2,12 +2,12 @@
 /dev/btpower                                                            u:object_r:bt_device:s0
 /dev/gnss_ipc                                                           u:object_r:gnss_device:s0
 /dev/jsqz                                                               u:object_r:jsqz_device:s0
-/dev/p3                                                                 u:object_r:secure_element_device:s0
+# /dev/p3                                                                 u:object_r:secure_element_device:s0
 /dev/qbt2000_fd                                                         u:object_r:fp_sensor_device:s0
 /dev/qbt2000_ipc                                                        u:object_r:fp_sensor_device:s0
 /dev/ssp                                                                u:object_r:ssp_device:s0
 /dev/ttyGS[0-9]*                                                        u:object_r:serial_device:s0
-/dev/vertex10                                                           u:object_r:npu_device:s0
+# /dev/vertex10                                                           u:object_r:npu_device:s0
 
 # EFS
 /efs/cirrus(/.*)?                                                       u:object_r:sec_efs_file:s0

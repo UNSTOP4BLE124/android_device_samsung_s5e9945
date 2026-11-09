@@ -60,7 +60,9 @@ PRODUCT_SOONG_NAMESPACES += \
     bootable/deprecated-ota \
     device/samsung/s5e9945 \
     hardware/google/interfaces \
-    hardware/google/pixel \
+    hardware/google/pixel/pixelstats \
+    hardware/google/pixel/power-libperfmgr \
+    hardware/google/pixel/thermal \
     hardware/qcom-caf/wlan \
     hardware/qcom-caf/wlan/qcwcn \
     hardware/samsung \
