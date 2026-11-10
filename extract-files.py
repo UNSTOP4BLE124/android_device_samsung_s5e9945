@@ -91,7 +91,8 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .add_needed('libshim_sensorndkbridge.so'),
     'vendor/lib64/libskeymint_cli.so': blob_fixup()
-        .add_needed('libshim_crypto.so'),
+        .add_needed('libshim_crypto.so')
+        .add_needed('libcrypto_shim.so'),
 }  # fmt: skip
 
 
